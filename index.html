@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- <link rel="stylesheet" href="./css/style.css"> -->
+    
+    <style>
+
+        /* h1 {
+            color: red;
+        }
+
+        .head1 {
+            color: blue;
+            
+        }
+        
+        #header1 {
+            color: green !important;
+        } */
+
+        body {
+            margin: 0;
+        }
+
+        .header1 {
+
+            display: flex;
+            flex-direction: row;
+
+            background-color: cadetblue;
+            text-align: center;
+            /* display: inline; */
+
+            position: fixed;
+            width: 100%;
+
+            border-bottom: 2px solid coral;
+            justify-content: space-around;
+        }
+
+        .brand-logo
+        {
+            height: 18vh;
+            width: 12vw;
+            
+        }
+
+        .brand-logo img
+        {
+            height: 18vh;
+            width: 12vw;
+            border-radius: 100%;
+        }
+
+        .header1 h1 {
+            margin: 0%;
+            padding: 10px;
+            color: #000;
+        }
+
+        .header1 nav a {
+            
+            text-decoration: none;
+            padding: 1em;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            color: aliceblue;
+        }
+
+        html, body,.sec1, .sec2, .sec3,.herounit{
+            height: 100%;
+            width: 100%;
+        }
+
+
+        .sec1 {
+
+            background-image: url(./images/bg1.jpeg);
+            background-size: cover;
+            text-align: center;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+
+        }
+
+        .sec1 img
+        {
+            margin-top: 10%;
+            height: 200px;
+            width: 200px;
+            border-radius: 50%;
+            left: 220px;
+            position: relative;
+        }
+
+        .sec1 h2, #para1
+        {
+            background-color: whitesmoke;
+        }
+
+
+        .herounit
+        {
+            background-image: url(./images/herounit.jpeg);
+            background-size: cover;
+            text-align: center;
+            background-repeat: no-repeat;
+        }
+
+        .herounit-mask
+        {
+            height: 100vh;
+        }
+
+        .herounit-mask h2
+        {
+            margin: 0%;
+            padding-top: 60vh;
+            color:rgb(185, 255, 80);
+            font-size: 2em;
+        }
+
+        .herounit-mask a
+        {
+            text-decoration: none;
+            font-size: 2em;
+            color: #000;
+        }
+        
+        .sec2 {
+            background-image: url(./images/bg3.jpeg);
+            background-size: cover;
+            text-align: center;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+        }
+
+        .sec2 h2
+        {
+            margin: 0%;
+            padding: 1em;
+        }
+
+        .sec2 img
+        {
+            height: 250px;
+            width: 310px;
+            margin: 0.5%;
+            transition: 2s;
+            filter: blur(5px);
+        }
+
+        .sec2 img:hover
+        {
+            transform: rotate(360deg);
+            /* transform: scale(1.1); */
+            filter: blur(0px);
+        }
+
+
+
+        .sec3 {
+            background-image: url(./images/img11.jpeg);
+            background-size: cover;
+            text-align: center;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+        }
+
+        .sec3 h2
+        {
+            margin: 0%;
+            padding-top: 10vh;
+            color: aliceblue;
+        }
+
+        .paper-flex-row
+        {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-evenly;
+            padding-top: 20vh;
+        }
+
+        .paper
+        {
+            background-color: aliceblue;
+            height: 350px;
+            width: 280px;
+            text-align: center;
+            border-radius: 10%;
+            padding: 1em;
+            margin: 1em;
+            box-shadow: 0 0 20px greenyellow;
+
+        }
+
+        .paper img
+        {
+            height: 150px;
+            width: 150px;
+            border-radius: 5%;
+        }
+
+
+        
+
+
+
+        .footer1 {
+            background-color: olivedrab;
+            text-align: center;
+        }
+
+
+
+    </style>
+
+</head>
+
+<body>
+<!--     
+    <h1 class="head1" id="header1">Hello World !!!!</h1>
+    <h1 class="head1" id="header2">Hello World !!!!</h1>
+    <h1 class="head1" id="header3">Hello World !!!!</h1>
+    <h1 class="head2" id="header4">Hello World !!!!</h1>
+    <h1 class="head2" id="header5" style="color: black;">Hello World !!!!</h1> -->
+
+
+    <header class="header1">
+
+        <div class="brand-logo">
+            <img src="./images/img1.png" alt="">
+        </div>
+
+        <h1>ZOMATO</h1>
+
+        <nav>
+            <a href="">Home</a>
+            <a href="">AboutUs</a>
+            <a href="">ContactUS</a>
+            <a href="">Product</a>
+        </nav>
+
+    </header>
+
+    <section class="sec1">
+
+        <img src="./images/img2.jpeg" alt="">
+        <h2>!!!! ZOMATO!!!!</h2>
+        <p id="para1">Zomato is an Indian multinational restaurant aggregator and food delivery company. It was founded by Deepinder Goyal and Pankaj Chaddah in 2008.</p>
+
+    </section>
+
+    <section class="herounit">
+        <div class="herounit-mask">
+            <h2>!!! DELICIOUSSSS FOOD!!!</h2>
+            <a href="">Know More !!!!</a>
+        </div>
+    </section>
+
+
+
+    <section class="sec2">
+
+        <h2>!!! Product Gallery !!!</h2>
+
+        <img src="./images/img4.jpeg" alt="">
+        <img src="./images/img5.jpeg" alt="">
+        <img src="./images/img6.jpeg" alt="">
+        <img src="./images/img7.jpeg" alt="">
+        <img src="./images/img12.jpeg" alt="">
+        <img src="./images/img13.jpeg" alt="">
+        <img src="./images/img14.jpeg" alt="">
+        
+
+    </section>
+
+    <section class="sec3">
+
+        <h2>!!! How to place an order? !!! </h2>
+
+        <section class="paper-flex-row">
+
+            <article class="paper">
+
+                <h3>Register</h3>
+                <img src="./images/register.jpeg" alt="">
+                <p>Step 1: Register to our website </p>
+
+            </article>
+
+            <article class="paper">
+
+                <h3>Explore the Product</h3>
+                <img src="./images/explore.jpeg" alt="">
+                <p>Step 2: Choose an appropriate product as per your requirement </p>
+
+            </article>
+
+            <article class="paper">
+
+                <h3>Add Product to Cart</h3>
+                <img src="./images/cart.png" alt="">
+                <p>Step 3: Add the product to cart before placing an order </p>
+
+            </article>
+
+            
+            <article class="paper">
+
+                <h3>Make the Payment</h3>
+                <img src="./images/payment.jpeg" alt="">
+                <p>Step 4: Make the final payment for the products you choose </p>
+
+            </article>
+
+        </section>
+
+
+    </section>
+
+    <footer class="footer1">
+        @Copyright @2024
+    </footer>
+
+
+</body>
+
+</html>
+
+
+<!-- 
+
+Different ways of implementing the CSS in HTML
+    Inline : <h1 style="color: red;">Hello World !!!!</h1>
+    Internal : <style> h1 {color: red;} </style>
+    External : <link rel="stylesheet" href="style.css">
+
+-->
